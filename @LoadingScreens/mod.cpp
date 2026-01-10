@@ -1,0 +1,10 @@
+name="LoadingScreens";
+tooltip="LoadingScreens";
+overview="Customized loading screen images and mask used on the Isle of The Dead Livonia server.";
+picture="LoadingScreens/data/picture.paa";
+logoSmall="LoadingScreens/data/logoSmall.paa";
+logo="LoadingScreens/data/logo.paa";
+logoOver="LoadingScreens/data/logo.paa";
+action="https://steamcommunity.com/sharedfiles/filedetails/?id=3643948795;
+author="moldypenguins";
+version="1.0";
