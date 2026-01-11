@@ -5,6 +5,6 @@ picture="LoadingScreens/data/picture.paa";
 logoSmall="LoadingScreens/data/logoSmall.paa";
 logo="LoadingScreens/data/logo.paa";
 logoOver="LoadingScreens/data/logo.paa";
-action="https://steamcommunity.com/sharedfiles/filedetails/?id=3643948795;
+action="https://steamcommunity.com/sharedfiles/filedetails/?id=3643948795";
 author="moldypenguins";
 version="1.0";

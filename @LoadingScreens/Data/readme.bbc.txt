@@ -13,6 +13,6 @@
 [url=https://discord.gg/isleofthedead][img]https://raw.githubusercontent.com/IsleOfTheDead/.github/main/images/discord.png[/img][/url]
 
 [h2]LEGAL:[/h2]
-[b]NO REPACKING. MAKE YOUR OWN.[/b]
+[b]NO UNPACKING/REPACKING/REPUBLISHING.[/b]
 Copyright ©2025-2026 Isle of The Dead. All Rights Reserved.
 This item is not authorized for posting on Steam, except under the Steam account [url=https://steamcommunity.com/id/moldypenguins]moldypenguins[/url]
