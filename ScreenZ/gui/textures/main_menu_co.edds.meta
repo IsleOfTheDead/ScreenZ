@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{8A420C6ADDA7F271}ScreenZ/gui/textures/main_menu_co.edds"
+ Author "moldypenguins"
+ ChangeDate 993178674
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "main_menu_co.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

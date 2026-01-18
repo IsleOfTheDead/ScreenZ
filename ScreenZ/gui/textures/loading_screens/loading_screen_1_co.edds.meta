@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{066E89212856E322}ScreenZ/gui/textures/loading_screens/loading_screen_1_co.edds"
+ Author "moldypenguins"
+ ChangeDate 1496495154
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "loading_screen_1_co.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
