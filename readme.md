@@ -1,11 +1,11 @@
 <img src="https://raw.githubusercontent.com/IsleOfTheDead/.github/main/images/banner.png" width="100%" />
 
-# LoadingScreens
+# ScreenZ
 
 ![DayZ](https://img.shields.io/badge/DayZ-v1.29-6BA539?style=for-the-badge&logo=bohemiainteractive&logoColor=6BA539&labelColor=30363D)
 
 Contains:
-* Customized loading screen images and mask used on the Isle of The Dead Livonia server.
+* Customized main menu with music and loading screen images with mask used on The Old Republic server.
 
 ## Installation:
 

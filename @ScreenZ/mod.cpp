@@ -1,6 +1,6 @@
 name="ScreenZ";
 tooltip="ScreenZ";
-overview="Customized main menu and loading screen images with mask used on The Old Republic server.";
+overview="Customized main menu with music and loading screen images with mask used on The Old Republic server.";
 picture="ScreenZ\data\picture.paa";
 logoSmall="ScreenZ\data\logoSmall.paa";
 logo="ScreenZ\data\logo.paa";
