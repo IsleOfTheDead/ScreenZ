@@ -1,16 +1,3 @@
-// Fisher-Yates shuffle for Enforce Script
-void ShuffleArray(array<string> arr)
-{
-  Math.Randomize(-1);
-  for (int i=arr.Count() - 1; i > 0; i--)
-  {
-    int j=Math.RandomInt(0, i + 1);
-    string temp=arr[i];
-    arr[i]=arr[j];
-    arr[j]=temp;
-  }
-}
-
 modded class LoadingScreen
 {
   private ref array<string> m_LoadScreenImages=
@@ -33,7 +20,15 @@ modded class LoadingScreen
 	void LoadingScreen(DayZGame game)
 	{
     m_ImageBackground.LoadMaskTexture(m_LoadScreenMask);
-    ShuffleArray(m_LoadScreenImages);
+    // Fisher-Yates shuffle for Enforce Script
+    Math.Randomize(-1);
+    for (int i=m_LoadScreenImages.Count() - 1; i > 0; i--)
+    {
+      int j=Math.RandomInt(0, i + 1);
+      string temp=m_LoadScreenImages[i];
+      m_LoadScreenImages[i]=m_LoadScreenImages[j];
+      m_LoadScreenImages[j]=temp;
+    }
     NextLoadScreenImage();
 
 		m_ModdedWarning.Show(false);
