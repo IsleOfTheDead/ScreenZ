@@ -11,6 +11,23 @@ FrameWidgetClass main_menu_root {
  vexactsize 0
  priority 951
  {
+  ImageWidgetClass ImageBackground {
+   visible 1
+   ignorepointer 1
+   position 0 0
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   priority 0
+   imageTexture "{8A420C6ADDA7F271}ScreenZ/gui/textures/main_menu_co.edds"
+   mode blend
+   "src alpha" 1
+   "stretch mode" stretch_w_h
+  }
   WrapSpacerWidgetClass play_panel_root {
    visible 1
    ignorepointer 1
@@ -1158,26 +1175,6 @@ FrameWidgetClass main_menu_root {
      "text valign" center
     }
    }
-  }
-  ImageWidgetClass ImageBackground {
-   visible 1
-   position 0 0
-   size 0.16 0.09
-   halign center_ref
-   valign center_ref
-   hexactpos 0
-   vexactpos 0
-   hexactsize 0
-   vexactsize 0
-   fixaspect outside
-   image0 ""
-   imageTexture "{8A420C6ADDA7F271}ScreenZ/gui/textures/main_menu_co.edds"
-   mode blend
-   "src alpha" 1
-   "clamp mode" clamp
-   "stretch mode" stretch_w_h
-   filter 0
-   nocache 1
   }
   ImageWidgetClass vignette {
    visible 1

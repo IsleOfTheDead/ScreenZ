@@ -2,9 +2,9 @@
 Customized screens used on The Old Republic server (Isle of The Dead - Livonia).
 
 [u]Contains:[/u]
-- Randomized loading screen image with mask
-- Login screen
-- Menu screen and music
+- Login screen randomized image with mask
+- Loading screen
+- Main menu with music
 
 [h2]INSTALLATION:[/h2]
 [i]Make your own. View the source code on GitHub. If you need help, find me on the Isle of The Dead Discord server.[/i]
