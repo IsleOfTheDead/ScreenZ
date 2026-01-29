@@ -2,7 +2,7 @@ modded class MainMenu
 {
   override Widget Init()
   {
-    layoutRoot=GetGame().GetWorkspace().CreateWidgets("ScreenZ/gui/layouts/new_ui/main_menu.layout");
+    layoutRoot=g_Game.GetWorkspace().CreateWidgets("ScreenZ/gui/layouts/new_ui/main_menu.layout");
 
     m_Play=layoutRoot.FindAnyWidget("play");
     m_ChooseServer=layoutRoot.FindAnyWidget("choose_server");
@@ -31,7 +31,7 @@ modded class MainMenu
     m_LastPlayedTooltipTimer=new WidgetFadeTimer();
 
     m_Stats=new MainMenuStats(layoutRoot.FindAnyWidget("character_stats_root"));
-    m_Mission=MissionMainMenu.Cast(GetGame().GetMission());
+    m_Mission=MissionMainMenu.Cast(g_Game.GetMission());
     m_LastFocusedButton =m_Play;
     m_ScenePC=m_Mission.GetIntroScenePC();
     if (m_ScenePC) m_ScenePC.ResetIntroCamera();
@@ -41,16 +41,16 @@ modded class MainMenu
 
     // Set Version
     string version;
-    GetGame().GetVersion(version);
+    g_Game.GetVersion(version);
     m_Version.SetText("#main_menu_version" + " " + version);
 
-    GetGame().GetUIManager().ScreenFadeOut(0);
+    g_Game.GetUIManager().ScreenFadeOut(0);
     SetFocus(null);
     Refresh();
     LoadMods();
     PopulateDlcFrame();
-    GetDayZGame().GetBacklit().MainMenu_OnShow();
-    GetGame().GetMission().GetOnModMenuVisibilityChanged().Insert(ShowDlcFrame);
+    g_Game.GetBacklit().MainMenu_OnShow();
+    g_Game.GetMission().GetOnModMenuVisibilityChanged().Insert(ShowDlcFrame);
     g_Game.SetLoadState(DayZLoadState.MAIN_MENU_CONTROLLER_SELECT);
 
     return layoutRoot;

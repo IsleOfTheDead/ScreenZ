@@ -26,26 +26,14 @@ class CfgMods
     credits="moldypenguins";
     author="moldypenguins";
     authorID="76561198312711389";
-    version="1.3";
+    version="1.4";
     type="mod";
     dependencies[]={ "Game", "Mission" };
     class defs
     {
-      class engineScriptModule
-      {
-        value="";
-        files[]={ "ScreenZ\scripts\1_core" };
-      };
-      class gameScriptModule
-      {
-        value="";
-        files[]={ "ScreenZ\scripts\3_game" };
-      };
-      class missionScriptModule
-      {
-        value="";
-        files[]={ "ScreenZ\scripts\5_mission" };
-      };
+      class engineScriptModule { value=""; files[]={ "ScreenZ\scripts\1_core" }; };
+      class gameScriptModule { value=""; files[]={ "ScreenZ\scripts\3_game" }; };
+      class missionScriptModule { value=""; files[]={ "ScreenZ\scripts\5_mission" }; };
     }
   };
 };
