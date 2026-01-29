@@ -33,8 +33,8 @@ modded class MainMenu
     m_Stats=new MainMenuStats(layoutRoot.FindAnyWidget("character_stats_root"));
     m_Mission=MissionMainMenu.Cast(GetGame().GetMission());
     m_LastFocusedButton =m_Play;
-    //m_ScenePC=m_Mission.GetIntroScenePC();
-    //if (m_ScenePC) m_ScenePC.ResetIntroCamera();
+    m_ScenePC=m_Mission.GetIntroScenePC();
+    if (m_ScenePC) m_ScenePC.ResetIntroCamera();
     m_PlayVideo.Show(false);
 
     m_PlayerName=TextWidget.Cast(layoutRoot.FindAnyWidget("character_name_text"));

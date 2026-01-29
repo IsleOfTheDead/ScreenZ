@@ -11,7 +11,7 @@ FrameWidgetClass main_menu_root {
  vexactsize 0
  priority 951
  {
-  ImageWidgetClass ImageBackground {
+  ImageWidgetClass background {
    visible 1
    ignorepointer 1
    position 0 0
@@ -31,8 +31,8 @@ FrameWidgetClass main_menu_root {
   WrapSpacerWidgetClass play_panel_root {
    visible 1
    ignorepointer 1
-   position 0.057 0.12
-   size 460 400
+   position 0.05 0.25
+   size 500 500
    halign right_ref
    valign bottom_ref
    hexactpos 0
@@ -49,7 +49,7 @@ FrameWidgetClass main_menu_root {
      visible 1
      color 0 0 0 0.549
      position 0 0
-     size 1 90
+     size 1 100
      halign center_ref
      valign bottom_ref
      hexactpos 1
@@ -70,7 +70,7 @@ FrameWidgetClass main_menu_root {
       ButtonWidgetClass play {
        color 0 0 0 0
        position 0 0
-       size 1 90
+       size 1 100
        halign center_ref
        valign bottom_ref
        hexactpos 1
@@ -131,7 +131,7 @@ FrameWidgetClass main_menu_root {
      ignorepointer 1
      color 0 0 0 0.549
      position 0 0
-     size 1 48
+     size 1 60
      hexactpos 1
      vexactpos 1
      hexactsize 0
@@ -246,7 +246,7 @@ FrameWidgetClass main_menu_root {
        visible 1
        ignorepointer 0
        position 0 0
-       size 1 38
+       size 1 60
        halign center_ref
        valign bottom_ref
        hexactpos 1
@@ -347,7 +347,7 @@ FrameWidgetClass main_menu_root {
        visible 1
        color 0 0 0 1
        position 0 0
-       size 1 38
+       size 1 50
        halign center_ref
        valign bottom_ref
        hexactpos 1
@@ -393,7 +393,7 @@ FrameWidgetClass main_menu_root {
       ButtonWidgetClass choose_server {
        color 0 0 0 1
        position 0 0
-       size 1 40
+       size 1 50
        halign center_ref
        valign bottom_ref
        hexactpos 1
@@ -451,9 +451,9 @@ FrameWidgetClass main_menu_root {
     GridSpacerWidgetClass character_stats_root {
      visible 1
      ignorepointer 1
-     position 100 340
-     size 400 380
-     halign right_ref
+     position 0 0
+     size 400 500
+     halign center_ref
      hexactpos 1
      vexactpos 1
      hexactsize 1
@@ -469,7 +469,7 @@ FrameWidgetClass main_menu_root {
        ignorepointer 1
        color 0 0 0 0.8627
        position 0 0
-       size 1 36
+       size 1 52
        hexactpos 1
        vexactpos 1
        hexactsize 0
@@ -486,7 +486,7 @@ FrameWidgetClass main_menu_root {
        {
         TextWidgetClass character_stats_text {
          ignorepointer 1
-         size 1 26
+         size 1 30
          valign center_ref
          hexactpos 1
          vexactpos 1
@@ -521,7 +521,7 @@ FrameWidgetClass main_menu_root {
         FrameWidgetClass TimeSurvived {
          ignorepointer 1
          position 0 0
-         size 48 24
+         size 48 30
          hexactpos 1
          vexactpos 1
          hexactsize 1
@@ -560,7 +560,7 @@ FrameWidgetClass main_menu_root {
         FrameWidgetClass PlayersKilled {
          ignorepointer 1
          position 0 0
-         size 48 24
+         size 48 30
          hexactpos 1
          vexactpos 1
          hexactsize 1
@@ -599,7 +599,7 @@ FrameWidgetClass main_menu_root {
         FrameWidgetClass InfectedKilled {
          ignorepointer 1
          position 0 0
-         size 48 24
+         size 48 30
          hexactpos 1
          vexactpos 1
          hexactsize 1
@@ -638,7 +638,7 @@ FrameWidgetClass main_menu_root {
         FrameWidgetClass DistanceTraveled {
          ignorepointer 1
          position 0 0
-         size 48 24
+         size 48 30
          hexactpos 1
          vexactpos 1
          hexactsize 1
@@ -677,7 +677,7 @@ FrameWidgetClass main_menu_root {
         FrameWidgetClass LongRangeShot {
          ignorepointer 1
          position 0 0
-         size 48 24
+         size 48 30
          hexactpos 1
          vexactpos 1
          hexactsize 1
@@ -755,11 +755,11 @@ FrameWidgetClass main_menu_root {
   }
   FrameWidgetClass settings_panel_root {
    ignorepointer 1
-   position 100 80
+   position 0.05 0.05
    size 290 40
    halign right_ref
-   hexactpos 1
-   vexactpos 1
+   hexactpos 0
+   vexactpos 0
    hexactsize 1
    vexactsize 1
    priority 3
@@ -783,7 +783,7 @@ FrameWidgetClass main_menu_root {
      switch normal
      {
       ImageWidgetClass tutorial_button_image {
-       visible 0
+       visible 1
        ignorepointer 1
        size 1 1
        halign center_ref
@@ -818,7 +818,7 @@ FrameWidgetClass main_menu_root {
      switch normal
      {
       ImageWidgetClass message_button_image {
-       visible 0
+       visible 1
        ignorepointer 1
        size 1 1
        halign center_ref
@@ -921,7 +921,7 @@ FrameWidgetClass main_menu_root {
      switch normal
      {
       ImageWidgetClass feedback_button_image {
-       visible 0
+       visible 1
        ignorepointer 1
        position 0 0
        size 1 1
@@ -966,7 +966,7 @@ FrameWidgetClass main_menu_root {
    priority 2
   }
   FrameWidgetClass ModsDetailed {
-   visible 0
+   visible 1
    clipchildren 0
    ignorepointer 1
    position 0.0589 0.11
@@ -982,12 +982,12 @@ FrameWidgetClass main_menu_root {
    visible 1
    ignorepointer 1
    color 0.0078 0.0078 0.0078 0.0392
-   position 500 130
+   position 0.05 0.15
    size 350 90
    halign right_ref
    valign bottom_ref
-   hexactpos 1
-   vexactpos 1
+   hexactpos 0
+   vexactpos 0
    hexactsize 1
    vexactsize 1
    priority 3
@@ -1201,11 +1201,11 @@ FrameWidgetClass main_menu_root {
    visible 1
    clipchildren 0
    ignorepointer 1
-   position 99.9999 0.05
+   position 0.05 0.05
    size 730 56
    halign right_ref
    valign bottom_ref
-   hexactpos 1
+   hexactpos 0
    vexactpos 0
    hexactsize 1
    vexactsize 1
